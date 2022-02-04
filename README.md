@@ -1,6 +1,6 @@
 # Amplify Auth with Cognito Hosted UI
 
-This is a simple example of using the Amplify JS library with vanilla JavaScript and the Cognito Hosted UI. You can use this with extisting resources by configuring Amplify as outlined in the (guide)[https://docs.amplify.aws/lib/auth/start/q/platform/js/#re-use-existing-authentication-resource].
+This is a simple example of using the Amplify JS library with vanilla JavaScript and the Cognito Hosted UI. You can use this with extisting resources by configuring Amplify as outlined in the [guide](https://docs.amplify.aws/lib/auth/start/q/platform/js/#re-use-existing-authentication-resource).
 
 Or use the Amplify CLI:
 
