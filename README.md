@@ -14,6 +14,6 @@ Choose any default option, or walk through the configuration. Ultimately you'll 
 
 Get to to the console with `amplify auth console` choose "User Pools", then goto "Domain name" and add any domain name. Next, goto App client settings, and configure as such (make sure the App Client ID matches the one generated in your `src/aws-exports.js` file):
 
-![cognito configuration](images/cognito-config-web-client.png);
+![cognito configuration](images/cognito-config-web-client.png)
 
-Save, and you should redirect to the hosted ui and back.
+Save your configuration, return to your app and update the `src/app.js` file to include your domain name in the `authenticate()` function. Then run `npm start` click `sign in` and you should be redirected to the hosted ui.
